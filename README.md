@@ -24,7 +24,7 @@ Here are the prompts. You can also customize these parameters to your liking.
 
 ```num_threads``` (default: 5) – The script runs parallel reqeusts to speed things up. Setting this higher will increase performance load, potentially making your computer run slower while the script executes.
 
-Note: By default the script will run through files in ascending order. Meaning the user's oldest uploads to the newest. You can change this by modfiying the ```"aidir": "ascending"``` parameter. 
+Note: By default the script will run through files in ascending order. Meaning the user's oldest uploads to the newest. You can change this by modfiying the ```"aidir": "ascending"``` parameter. Reminder, if you just uploaded a file, it will not have any media views! Usually takes a day or so for stats to be collected and available. 
 
 ## Installation
 
@@ -48,6 +48,8 @@ In all seriousness, this script may be helpful if you are working with a partner
 ## Development setup
 
 It's a python script. Any text editor should be fine to muck with it. 
+
+I am trying to only use standard python modules to keep the requriements and ease of use low. 
 
 ## Release History
 
