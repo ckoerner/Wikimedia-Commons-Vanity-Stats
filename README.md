@@ -4,7 +4,7 @@ A small python script to gather media requests for uploaded files by a single us
 Full disclosure, I used LLM tools to help with the creation of this script. I am not a programmer by trade, only mildy dangerous with a hint of understanding of what I'm doing. :) 
 
 # How does it work?
-Thet script uses the MediaWiki and mediarequests APIs to generate a report that is saved as a .csv file. The script queries a users uploads and provides the name of the file, how many media requests that files has seen, and the upload date of the file. 
+Thet script uses the MediaWiki and mediarequests APIs to generate a report that is saved as a .csv file. The script queries a user's uploads and provides the name of the file, how many media requests that files has seen, and the upload date of the file. 
 
 When you run the script it will prompt you for some informaiton. There are also some rather sane defaults. 
 
