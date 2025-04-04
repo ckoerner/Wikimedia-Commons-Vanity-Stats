@@ -41,7 +41,7 @@ analytics_frequency = input("Enter analytics frequency (daily/monthly, default: 
 start_date = input(f"Enter start date (YYYYMMDD, default: {registration_date}): ") or registration_date
 end_date = input(f"Enter end date (YYYYMMDD, default: {current_date}): ") or current_date
 output_csv = input("Enter output CSV filename (default: media_requests.csv): ") or "media_requests.csv"
-max_files_to_check = int(input("Enter max files to check (default: 10): ") or 10)
+max_files_to_check = int(input("Enter max files to check (default: 500): ") or 500)
 num_threads = int(input("Enter number of parallel threads (default: 5): ") or 5)
 
 # Function to make API requests
