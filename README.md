@@ -20,7 +20,7 @@ Here are the prompts. You can also customize these parameters to your liking.
 
 ```output_CSV``` (default: media_requests.csv) – What the resulting .csv file will be named. It is saved to your ~/ user directory.
 
-```max_files_to_check``` (default: 10) – How many files to check before stopping. Uses the Mediawiki API pagination for reqeusts greater than 500. 
+```max_files_to_check``` (default: 500) – How many files to check before stopping. Uses the Mediawiki API pagination for reqeusts greater than 500. 
 
 ```num_threads``` (default: 5) – The script runs parallel reqeusts to speed things up. Setting this higher will increase performance load, potentially making your computer run slower while the script executes.
 
