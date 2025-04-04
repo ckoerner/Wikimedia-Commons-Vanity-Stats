@@ -30,8 +30,10 @@ Note: By default the script will run through files in ascending order. Meaning t
 
 MacOS:
 
-#Download vanity.py to your computer.
-#Open Terminal and type in the following (You'll need to specify the location of ```vanity.py``` in order for this to work. i.e. /Users/<username>/Downloads/vanity.py
+1. Download vanity.py to your computer.
+2. Open Terminal and type in the following
+
+(You'll need to specify the location of ```vanity.py``` in order for this to work. i.e. /Users/<username>/Downloads/vanity.py)
 
 ```sh
 python3 vanity.py
