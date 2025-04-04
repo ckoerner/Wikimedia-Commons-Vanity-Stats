@@ -30,7 +30,7 @@ response = user_data.getresponse()
 user_info = json.loads(response.read().decode())
 user_data.close()
 
-registration_date = "20170401"  # Default fallback
+registration_date = "20130122"  # Default fallback
 if "query" in user_info and "users" in user_info["query"] and "registration" in user_info["query"]["users"][0]:
     registration_date = user_info["query"]["users"][0]["registration"].replace("-", "")[0:8]
 
