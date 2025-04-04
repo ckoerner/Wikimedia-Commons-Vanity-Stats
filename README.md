@@ -14,7 +14,7 @@ Here are the prompts. You can also customize these parameters to your liking.
 
 ```analytics_frequency``` (daily/monthly, default: daily) – The mediareqeusts API provides either daily or monthy statistics.
 
-```start_date``` (YYYYMMDD, default: 20130122) – The default is my account creation date. An easter egg! :p
+```start_date``` (YYYYMMDD, default: ```registration_date```) – Will default to the Users registraiton date.
 
 ```end_date``` (YYYYMMDD, default: <current date>) – The defualt will be the current date.
 
