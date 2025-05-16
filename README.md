@@ -33,7 +33,7 @@ MacOS:
 1. Download vanity.py to your computer.
 2. Open Terminal and type in the following
 
-(You'll need to specify the location of ```vanity.py``` in order for this to work. i.e. /Users/<username>/Downloads/vanity.py)
+(You'll need to specify the location of ```vanity.py``` in order for this to work. i.e. /Users/username/Downloads/vanity.py)
 
 ```sh
 python3 vanity.py
@@ -53,7 +53,7 @@ I am trying to only use standard python modules to keep the requriements and eas
 
 ## Release History
 
-* 0.0.1
+* 0.1
     * Initial commit after working on the script locally for a bit.
 
 ## Meta
